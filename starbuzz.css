@@ -7,7 +7,9 @@ body {
     font-family: sans-serif;
     font-size: 14px;
     }
-h1 {
+   
+    h1{
+    text-decoration-line: underline;
     color: rgb(235, 57, 3);
     text-align: center;
     font-size: 1.5em
@@ -24,8 +26,50 @@ h3 {
 }
 
     #pret-vechi {
+        color: orangered;
         text-decoration-line:line-through ;
         text-decoration-color: crimson;
         text-decoration-thickness: 3px;
         text-decoration-style: dotted;   
+    }
+    .pret {
+        font-size: 1.2em;
+        color: darkgreen;
+        font-weight: bold;
+    }
+    img {
+        display: block;
+        margin: auto;
+        
+    }
+    a{
+        margin: 2em;
+        border-style: double;
+        padding: 1em;
+       
+    }
+    blockquote {
+font-size: 1.3em;
+font-style: italic;
+color: rgb(199, 50, 13);
+text-decoration-style: dotted;
+text-decoration-color: crimson;
+text-decoration-line: underline;
+border-style: dotted;
+border-color: steelblue;
+border-radius: 10px;
+padding: 0.5em;
+margin: 1em;
+margin-top: 2em;
+margin-left: 0;
+width: 60%;
+height: 5em;
+}
+ul{
+   font-family: sans-serif;
+   list-style-image: url();
+   font-size: 1.2em;
+}
+.imagine{
+    text-align: center;
 }
