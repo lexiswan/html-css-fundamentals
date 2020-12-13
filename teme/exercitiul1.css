@@ -1,0 +1,30 @@
+body {
+   background-color: black;
+}
+table {
+   border-color: black;
+   margin-top: 40px;
+   margin-right: 40px;
+   margin-left: 40px;
+   border-style: solid;
+   width: 60em;
+   font-family:sans-serif;
+   text-align: left;
+   border-collapse: collapse;
+   
+}
+th, td {
+   text-align: left;
+   padding-right: 4em;
+}
+th {
+   background-color: red;
+   color: white;
+}
+
+tr:nth-child(even) {background-color: white;}
+tr:nth-child(odd) {background-color: rgb(179, 179, 179);}
+
+
+
+

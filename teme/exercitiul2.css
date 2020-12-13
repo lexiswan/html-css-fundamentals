@@ -1,0 +1,22 @@
+body {
+    height: 200vh;
+}
+input {
+    display:inline-block;
+    margin: 0.2em 0 0.5em 0;
+    border: none;
+    
+}
+button {
+    display: block;
+    background: linear-gradient(90deg, rgba(235,54,191,1) 0%, rgba(242,48,87,1) 63%);
+border-style: none;
+padding: 0.5em;
+color: white;
+border-radius: 0.5em;
+width: 7em;
+}
+label {
+    font-family: sans-serif;
+    display: block;
+}
