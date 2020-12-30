@@ -1,0 +1,91 @@
+
+* { box-sizing: border-box;
+}
+
+p{
+    padding: 1em;
+}
+header {
+    text-align: center;
+    border-bottom: 0.1em solid black;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(175, 88, 6);
+    color: white;
+    font-size: 0.8em;
+    padding: 0.2em;
+
+    }
+section, aside {
+    display: inline-block;
+    
+}
+section {
+    width: 20%;
+    height: 100vh;
+    background-color:peachpuff;
+    padding-left: 1em;
+    background-image: url("wood.jpg");
+    background-color: tan;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+    aside {
+    width: 80%;
+    vertical-align: top;
+    padding-top: 1em;
+    border-left: 0.1em solid black;
+    height: 100vh;
+    padding-left: 1em;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-indent: 5%;
+    overflow: scroll;
+    background-color: tan;
+    background-image: url("time.jpg");
+    background-size:inherit;
+    
+}
+a {
+    
+    display: block;
+    line-height: 5em;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-decoration: none;
+    color: maroon;
+    
+}
+img {
+    float: left;
+    vertical-align: top;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+table {
+    text-align: center;
+    font-size: 14px;
+    
+}
+th {
+    padding: 1em;
+}
+td {
+    padding: 0.5em;
+    width: 35%;
+}
+#heading {
+    background-color: seagreen;
+}
+tr:nth-of-type(even) {
+    background-color: khaki;
+}
+tr {
+    background-color: lightgoldenrodyellow;
+}
+body {
+    margin: 0 auto;
+}
