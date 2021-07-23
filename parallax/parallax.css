@@ -1,0 +1,9 @@
+body {
+    font-size: 1.9em;
+}
+#parallax, #parallax2 {
+    background-image: url("ocean.jpg");
+    background-size: cover;
+    height: 75vh;
+    background-attachment: fixed;
+}
