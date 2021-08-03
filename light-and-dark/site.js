@@ -8,8 +8,8 @@ document.querySelector("#switch")
         let css = document.querySelector("#darkcss")
         css.disabled = theme == "light" ? true : false
         
-        let symbol = css.disabled ? "&#9789;" : "&#9788;"
-        document.querySelector("#switch").innerHTML = symbol
+        //let symbol = css.disabled ? "&#9789;" : "&#9788;"
+        //document.querySelector("#switch").innerHTML = symbol
 
         localStorage.setItem("theme", theme)
     }
