@@ -19,20 +19,22 @@
 @media screen and (min-width: 1024px) {
 body {
     font-size: 20px;
+    overflow: hidden;
 }
 #homepage{
 background-size: 25%;
 }
 }
-
-#homepage {
-    background-color: black;
-    color: white;
+#homepage, #lastpage {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+#homepage {
+    background-color: rgba(23,22,20,255);
+    color: white;
     background-image: url(travel.jpg);
     background-size: 30%;
     background-repeat: no-repeat;
@@ -42,9 +44,49 @@ background-size: 25%;
     font-family: Tenez;
     font-size: 6em;
     margin-bottom: 0.3em;
-   
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-#homepage a {
+#enter, #back {
     font-family: "futura-pt";
     font-size: 1.5em;
+    cursor: pointer;
+}
+#lastpage {
+    background-color: darkslategray;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+}
+img {
+    height: 60vh;
+    }
+#photos {
+    margin-bottom: 2em;
+}
+@keyframes slide-in{
+    to{
+        left: 0;
+    }
+}
+.slide-in, .slide-out {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.slide-in {
+    animation-name: slide-in;
+}
+@keyframes slide-out {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100vw;
+    }
+}
+.slide-out {
+    animation-name: slide-out;
 }
