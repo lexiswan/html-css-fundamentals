@@ -4,13 +4,15 @@
 
 p{
     padding: 1em;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
     text-align: center;
     border-bottom: 0.1em solid black;
-    font-family:'Times New Roman', Times, serif;
-    background-color: rgb(175, 88, 6);
-    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(197, 128, 64);
+    color: rgb(255, 255, 255);
     font-size: 0.8em;
     padding: 0.2em;
 
@@ -44,7 +46,7 @@ section {
     text-indent: 5%;
     overflow: scroll;
     background-color: tan;
-    background-image: url("time.jpg");
+    background-image: url("nasa-E7q00J_8N7A-unsplash.jpg");
     background-size:inherit;
     
 }
